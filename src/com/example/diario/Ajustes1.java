@@ -48,5 +48,12 @@ public class Ajustes1 extends Activity {
 
 		startActivity(i);
 	}
-
+	  public void onajustes1(View view) {
+	        Intent ajust = new Intent(this,Ajustes2.class);
+	        this.startActivity(ajust);
+	        
+	        
+	    
+	        
+	     }
 }

@@ -42,12 +42,14 @@ public class Ajustes2 extends Activity {
 		return true;
 	}
 	
-	public void onClickAjustes2(View view) {
+	public void onajustes2(View view) {
 
 		Intent i = new Intent(this, ApplicationActivity.class);
 		Toast.makeText(this, "Ajustes Guardados!", Toast.LENGTH_LONG).show();
 		startActivity(i);
 	}
+
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {

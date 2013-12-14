@@ -70,17 +70,6 @@ public class ApplicationActivity extends Activity {
         Intent ajus = new Intent(this,Ajustes1.class);
         this.startActivity(ajus);
 }
-    public void onajustes1(View view) {
-        Intent ajust = new Intent(this,Ajustes2.class);
-        this.startActivity(ajust);
-        
-        
-    }
-    public void onajustes2(View view) {
-        Intent ajuste = new Intent(this,ApplicationActivity.class);
-        this.startActivity(ajuste);
-        
-        
-    }
+  
         
 }
