@@ -41,6 +41,23 @@
     <string name="title_activity_amigos_activity2">AmigosActivity2</string>
     <string name="mis_amigos">Mis amigos</string>
     <string name="misamigos">Amigos</string>
+    <string name="title_activity_ajustes1">Ajustes1</string>
+    <string name="title_activity_ajustes2">Ajustes2</string>
     <string name="todo">TODO</string>
+    <string name="title_activity_proyecto042">Proyecto042</string>
+    <string name="title_activity_circulo">CirculoActivity</string>
+    <string name="jugarcirculo">jugar con circulo</string>
+    <string name="textswitchajustes">textswitchajustes</string>
+    <string name="textswitch1">textswitch1</string>
+    <string name="textswitchajustes2">textswitchajustes2</string>
+    <string name="agregarajustes2">agregarAjustes2</string>
+    <string name="ajustes_de_perfil">Ajustes de Perfil</string>
+    <string name="activar">Activar</string>
+    <string name="desea_recibir_actualizaciones">Desea recibir actualizaciones</string>
+    <string name="desea_recibir_notificaciones">Desea recibir notificaciones</string>
+    <string name="elegir">Elegir</string>
+    <string name="onclickajustes1">onClickAjustes1</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="ajustes">ajustes</string>
 
 </resources>

@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="18"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
 
     <application
         android:allowBackup="true"
@@ -46,8 +46,6 @@
             android:name="com.example.notas.NotaMainActivity"
             android:label="@string/title_activity_nota_main" >
         </activity>
-   
-        
         <activity
             android:name="com.example.diario.AmigosActivity"
             android:label="@string/title_activity_amigos" >
@@ -59,6 +57,30 @@
         <activity
             android:name="com.example.diario.AmigosActivity2"
             android:label="@string/title_activity_amigos_activity2" >
+        </activity>
+        <activity
+            android:name="com.androidya.proyecto042.Proyecto042"
+            android:label="@string/title_activity_proyecto042" >
+        </activity>
+        <activity
+            android:name="com.example.diario.CirculoActivity"
+            android:label="@string/title_activity_circulo" >
+        </activity>
+        <activity
+            android:name="com.example.diario.Ajustes1Activity"
+            android:label="@string/title_activity_ajustes1" >
+        </activity>
+        <activity
+            android:name="com.example.diario.Ajustes2Activity"
+            android:label="@string/title_activity_ajustes2" >
+        </activity>
+        <activity
+            android:name="com.example.diario.Ajustes1"
+            android:label="@string/title_activity_ajustes1" >
+        </activity>
+        <activity
+            android:name="com.example.diario.Ajustes2"
+            android:label="@string/title_activity_ajustes2" >
         </activity>
     </application>
 

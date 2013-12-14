@@ -16,14 +16,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-     <Button
-         android:id="@+id/profileButton"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="17dp"
-         android:textColor="#FF0000"
-         android:onClick="onProfileButtonClicked"
-         android:text="@string/perfil" />
+       <Button
+           android:id="@+id/profileButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/imageView1"
+           android:layout_alignTop="@+id/nameTextViewField"
+           android:layout_marginTop="18dp"
+           android:onClick="onProfileButtonClicked"
+           android:text="@string/perfil"
+           android:textColor="#FF0000" />
 
        <Button
            android:id="@+id/button1"
@@ -32,43 +34,61 @@
            android:layout_height="wrap_content"
            android:layout_alignBaseline="@+id/profileButton"
            android:layout_alignBottom="@+id/profileButton"
-           android:layout_alignParentRight="true"
-           android:layout_marginRight="40dp"
+           android:layout_toRightOf="@+id/profileButton"
            android:onClick="onHistorialNotas"
            android:text="@string/ver_notas"
-           android:textColor="#FF0000" />
-
-       <Button
-           android:id="@+id/Button01"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_alignLeft="@+id/button1"
-           android:layout_alignParentBottom="true"
-           android:layout_marginBottom="47dp"
-           android:layout_marginLeft="20dp"
-           android:onClick="onamigoboton"
-           android:text="@string/misamigos"
-           android:textColor="#FF0000" />
-
-       <Button
-           android:id="@+id/logoutButton"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_alignBaseline="@+id/Button01"
-           android:layout_alignBottom="@+id/Button01"
-           android:layout_toRightOf="@+id/nameTextViewField"
-           android:onClick="onLogoutButtonClicked"
-           android:text="@string/salir"
            android:textColor="#FF0000" />
 
        <ImageView
            android:id="@+id/imageView1"
            android:layout_width="190dp"
            android:layout_height="190dp"
-           android:layout_below="@+id/button1"
-           android:layout_centerHorizontal="true"
-           android:layout_marginTop="37dp"
+           android:layout_centerVertical="true"
+           android:layout_toRightOf="@+id/nameTextViewField"
            android:contentDescription="@string/background"
            android:src="@drawable/ic_pollo" />
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/imageView1"
+           android:onClick="onamigoboton1"
+           android:text="@string/jugarcirculo"
+           android:textColor="#FF0000" />
+
+       <Button
+           android:id="@+id/logoutButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/imageView1"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="19dp"
+           android:layout_marginLeft="24dp"
+           android:onClick="onLogoutButtonClicked"
+           android:text="@string/salir"
+           android:textColor="#FF0000" />
+
+       <Button
+           android:id="@+id/Button01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/logoutButton"
+           android:layout_below="@+id/profileButton"
+           android:onClick="onamigoboton"
+           android:text="@string/misamigos"
+           android:textColor="#FF0000" />
+
+       <Button
+           android:id="@+id/button3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/logoutButton"
+           android:layout_alignBottom="@+id/logoutButton"
+           android:layout_alignRight="@+id/imageView1"
+           android:onClick="onajustes"
+           android:text="@string/ajustes"
+           android:textColor="#FF0000" />
 
 </RelativeLayout>

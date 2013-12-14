@@ -61,6 +61,26 @@ public class ApplicationActivity extends Activity {
         this.startActivity(friend);
 
 }
+    public void onamigoboton1(View view) {
+        Intent cir = new Intent(this,CirculoActivity.class);
+        this.startActivity(cir);
     
-    
+    }
+    public void onajustes(View view) {
+        Intent ajus = new Intent(this,Ajustes1.class);
+        this.startActivity(ajus);
+}
+    public void onajustes1(View view) {
+        Intent ajust = new Intent(this,Ajustes2.class);
+        this.startActivity(ajust);
+        
+        
+    }
+    public void onajustes2(View view) {
+        Intent ajuste = new Intent(this,ApplicationActivity.class);
+        this.startActivity(ajuste);
+        
+        
+    }
+        
 }
